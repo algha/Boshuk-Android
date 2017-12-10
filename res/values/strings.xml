@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Boshuk</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="men">مەن</string>
+    <string name="turler">تۈرلەر</string>
+    <string name="chembirek">چەمبىرەك</string>
+    <string name="bilimler">بىلىملەر</string>
+    <string name="bashbet">باشبەت</string>
+    <string name="cricle_post_hint">كۆڭلىڭىزدىكى كەلىمىلەرنى تۆكۈپ بولغاندىن كىيىن، بىر قانچە رەسىم قوشۇپ يازمىڭىزنى جەزبىدارلىقىنى ئاشۇرۇڭ&#8230;</string>
+    <string name="cricle_text_count">300/0</string>
+    <string name="merhaba">مەرھابا</string>
+    <string name="get_password">مەخپىي نومۇر قايتۇرۇش</string>
+    <string name="next_step">كىيىنكى قەدەم</string>
+    <string name="retry">تەستىق كودىغا قايتا ئېرىشىش</string>
+    <string name="tamam">تامام</string>
+    <string name="sent_verify_code">تەستىق كودى تۆۋەندىكى نومۇرغا يوللاندى:</string>
+    <string name="verify_code_password">تەستىق كودى ۋە مەخپى نومۇرىڭىزنى كىرگۈزۈڭ.</string>
+
+    <string name="ziyaret_tarihi">زىيارەت تارىخى</string>
+    <string name="saqlanmilar">ساقلانمىلار</string>
+    <string name="baha_berix">باھا بېرىش</string>
+    <string name="pul_tolenmigen">پۇل تۆلەنمىگەن</string>
+    <string name="ewetilgen">ئەۋەتىلگەن</string>
+    <string name="qayturulghan">قايتۇرۇلغان</string>
+    
+    <string name="jughlanmam">جۇغلانمام</string>
+    <string name="qalduqum">قالدۇقۇم</string>
+    <string name="mal_harwam">مال ھارۋام</string>
+    <string name="iltimasim">ئىلتىماسىم</string>
+    <string name="egeshkinim">ئەگەشكىنىم</string>
+    <string name="egeshkuchilirim">ئەگەشكۈچىلىرىم</string>
+    <string name="temilirim">تېمىلىرىم</string>
+    <string name="soalim">سوئالىم</string>
+    
+    <string name="boshuk_app">بۆشۈك ئانا-بالىلار ئەپى</string>
+    <string name="boshuk_version">V2.5</string>
+    
+    <string name="more">تېخىمۇ كۆپ</string>
+    <string name="soal_jawab">مۇتەخەسىسلەر سوئال-جاۋاب</string>
+    <string name="kitabhana">كىتابخانا</string>
+    <string name="balilar_oyuni">بالىلار ئويۇنى</string>
+    <string name="perhiz">پەرھىز</string>
+    <string name="haletlirim">ھالەتلىرىم</string>
+    <string name="xlistview_header_hint_normal">تۆۋەنگە سىيرىسىڭىز يېڭىلىنىدۇ</string>
+    <string name="xlistview_header_hint_ready">قويۇپ بەرسىڭىز يېڭىلىنىدۇ</string>
+    <string name="xlistview_header_hint_loading">يېڭىلىنىۋاتىدۇ…</string>
+    <string name="xlistview_header_last_time">ئالدىنقى قېتىم يېڭىلانغان ۋاقىت: </string>
+    <string name="xlistview_footer_hint_normal">تېخىمۇ كۆپ</string>
+    <string name="xlistview_footer_hint_ready">قويۇپ بەرسىڭىز قوشۇلىدۇ</string>
+    
+    <string name="profile_service_info">مەزمۇنىنى قانچە چىن تولدۇرسىڭىز، سىزگە بولغان مۇلازىمىتىمىز شۇنچە ئىنچىكە بولغۇسى</string>
+    <string name="ikki_kelime_siz">ئىككى كەلىمە سۆز</string>
+    <string name="berilgen_baha">بېرىلگەن باھا</string>
+</resources>

@@ -1,0 +1,363 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- arhip -->
+
+                <RelativeLayout
+                    android:id="@+id/arhip_ozgertish"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/more" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- parol -->
+
+                <RelativeLayout
+                    android:id="@+id/parol"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/more" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- address -->
+
+                <RelativeLayout
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/more" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- isim -->
+
+                <RelativeLayout
+                    android:id="@+id/isim"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/more" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- tarih -->
+
+                <RelativeLayout
+                    android:id="@+id/tarih"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- yardem -->
+
+                <RelativeLayout
+                    android:id="@+id/yardem"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- izahat -->
+
+                <RelativeLayout
+                    android:id="@+id/izahat"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left|center"
+                        android:textColor="#ff0000"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+
+                <!-- baha -->
+
+                <RelativeLayout
+                    android:id="@+id/baha"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" >
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left|center"
+                        android:textColor="#b7b7b7"
+                        android:textSize="9sp" />
+
+                    <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right|center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#f2f2f2" />
+                
+                <com.algha.boshuk.widget.MyTextView
+                    	android:layout_marginTop="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/boshuk_app"
+                        android:textColor="#a0a0a0"
+                        android:textSize="13sp" />
+                
+                <com.algha.boshuk.widget.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/boshuk_version"
+                        android:textColor="#a0a0a0"
+                        android:textSize="12sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

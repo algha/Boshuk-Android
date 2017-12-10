@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.algha.boshuk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.algha.boshuk.activity.ActivitySplash"
+            android:label="@string/app_name"
+            android:theme="@style/splashScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityMain"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityBrowser"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivitySettings"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityCriclePost"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityLogin"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityRegister"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.Activity_GetPassword"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.Activity_MotherSituation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityRegister_Verify"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityArhip"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityQayturulghan"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivitySaqlanma"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityZiyaret"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityEwetilgen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityPulTolenmigen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityBaha"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityJughlanmam"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityQalduqum"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityMalharwam"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityIltimasim"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityEgishish"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityTemilirim"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivitySoalim"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityUserHome"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityUserHalet"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityChangePassword"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityAddress"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityAddAddress"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityVerifyName"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityBook"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityBook_Detail"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityGame"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityGame_Detail"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityPerhiz"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityPerhiz_Detail"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityAdvice"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityAdvice_Detail"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityKnowlege"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityKnowlege_Detail"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityCategory"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.algha.boshuk.activity.ActivityGood"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+    </application>
+</manifest>

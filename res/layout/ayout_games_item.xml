@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/game_image"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ffffff"
+        android:contentDescription="@string/app_name" />
+
+    <com.algha.boshuk.widget.MyTextView
+        android:id="@+id/game_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ellipsize="marquee"
+        android:gravity="right|center"
+        android:maxLines="1"
+        android:textColor="#ff4965"
+        android:textSize="12sp" />
+
+    <com.algha.boshuk.widget.MyTextView
+        android:id="@+id/izahat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="marquee"
+        android:textColor="#898989"
+        android:gravity="right|center"
+        android:maxLines="1"
+        android:textSize="10sp" />
+
+    <com.algha.boshuk.widget.MyTextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="#282828"
+        android:ellipsize="marquee"
+        android:textSize="10sp" />
+
+</LinearLayout>
