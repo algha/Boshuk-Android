@@ -40,6 +40,7 @@ public class App extends Application {
 		return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, size, App.DISPLAY_METRICS);
 	}
 	
+	
 	public static void startLoadingAnimation(View view) {
 		Animation animation = new RotateAnimation(0, 359, Animation.RELATIVE_TO_SELF, 0.5F, Animation.RELATIVE_TO_SELF, 0.5F);
 		animation.setInterpolator(new LinearInterpolator());
